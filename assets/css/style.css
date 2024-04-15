@@ -1,0 +1,79 @@
+/* ----Body----- */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------Header------ */
+
+/* ------Title------ */
+.page-title {
+    padding-left: 10px;
+    color: #d04521;
+}
+
+/* -----Navbar---- */
+.navbar-brand {
+    color: #d04521;
+}
+
+/* -----Hero image--- */
+#home {
+    height: 80vh;
+
+    background: url("https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 70%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* -----Enter button----- */
+#enter-btn {
+    color: #fafafa;
+    background-color: #d04521;
+    border: #d04521;
+}
+
+/* ----Footer----- */
+
+.footer {
+    text-align: center;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #d04521;
+}
+
+#footer-details {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
